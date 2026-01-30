@@ -1,6 +1,5 @@
 ---
 description: SwiftUI views, MVVM with @Observable, navigation patterns, reusable UI components.
-disable-model-invocation: true
 ---
 
 # SwiftUI Patterns Sub-Skill

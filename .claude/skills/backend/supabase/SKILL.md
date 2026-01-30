@@ -1,6 +1,5 @@
 ---
 description: Supabase Postgres, row-level security, Edge Functions, real-time subscriptions.
-disable-model-invocation: true
 ---
 
 # Backend Sub-Skill: Supabase

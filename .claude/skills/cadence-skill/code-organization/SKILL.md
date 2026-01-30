@@ -1,6 +1,5 @@
 ---
 description: Structure SKILL code files, apply naming conventions, organize Cadence SKILL projects.
-disable-model-invocation: true
 ---
 
 # SKILL Code Organization Sub-Skill

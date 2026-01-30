@@ -1,6 +1,5 @@
 ---
 description: App Store submission preparation, review rejections, metadata, screenshots.
-disable-model-invocation: true
 ---
 
 # App Store Submission Sub-Skill

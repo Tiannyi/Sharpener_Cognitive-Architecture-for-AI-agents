@@ -1,6 +1,5 @@
 ---
 description: Create parameterized cells (pcells), CDF parameters, callbacks, device generators in SKILL++.
-disable-model-invocation: true
 ---
 
 # Pcell Patterns Sub-Skill

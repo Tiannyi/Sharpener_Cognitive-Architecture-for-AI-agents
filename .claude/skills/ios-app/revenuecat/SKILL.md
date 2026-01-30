@@ -1,6 +1,5 @@
 ---
 description: In-app purchases, subscriptions, paywalls, entitlements using RevenueCat in iOS.
-disable-model-invocation: true
 ---
 
 # RevenueCat Sub-Skill

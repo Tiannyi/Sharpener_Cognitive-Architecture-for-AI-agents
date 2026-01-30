@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 description: analyzing stress testing data, degradation trends, NBTI/HCI/TDDB, or projecting device lifetime.
 ---
 

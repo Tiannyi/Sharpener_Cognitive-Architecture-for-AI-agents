@@ -1,6 +1,5 @@
 ---
 description: Firestore data models, CRUD, real-time listeners, security rules, repository pattern in iOS.
-disable-model-invocation: true
 ---
 
 # Firestore Sub-Skill

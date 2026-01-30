@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 description: extracting device parameters (Vth, SS, DIBL, Ion/Ioff) from IV or CV measurement data.
 ---
 

@@ -1,6 +1,5 @@
 ---
 description: Convert GDS/GDSII layout files to Cadence SKILL code using gdspy or klayout.
-disable-model-invocation: true
 ---
 
 # GDS-to-SKILL Conversion Sub-Skill

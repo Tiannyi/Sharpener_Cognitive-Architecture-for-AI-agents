@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 description: determining valid comparisons between measurements, normalizing by device geometry, or grouping data by lot/wafer/die conditions.
 ---
 

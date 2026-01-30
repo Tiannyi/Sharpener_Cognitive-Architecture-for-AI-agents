@@ -1,5 +1,4 @@
 ---
-disable-model-invocation: true
 description: calculating Cp/Cpk, building control charts, analyzing wafer maps, or performing lot acceptance.
 ---
 
