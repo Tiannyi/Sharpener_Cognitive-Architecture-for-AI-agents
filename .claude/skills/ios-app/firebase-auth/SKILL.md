@@ -1,5 +1,6 @@
 ---
-description: Load when implementing Firebase Auth with Google, Apple, or email sign-in in a SwiftUI iOS app.
+description: Firebase Auth with Google, Apple, or email sign-in in SwiftUI iOS apps.
+disable-model-invocation: true
 ---
 
 # Firebase Auth Sub-Skill

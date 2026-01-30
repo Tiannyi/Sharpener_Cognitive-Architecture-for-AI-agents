@@ -1,5 +1,6 @@
 ---
-description: Load when building SwiftUI views, implementing MVVM with @Observable, navigation patterns, or reusable UI components.
+description: SwiftUI views, MVVM with @Observable, navigation patterns, reusable UI components.
+disable-model-invocation: true
 ---
 
 # SwiftUI Patterns Sub-Skill

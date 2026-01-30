@@ -1,5 +1,6 @@
 ---
-description: Load when implementing in-app purchases, subscriptions, paywalls, or entitlements using RevenueCat in iOS.
+description: In-app purchases, subscriptions, paywalls, entitlements using RevenueCat in iOS.
+disable-model-invocation: true
 ---
 
 # RevenueCat Sub-Skill

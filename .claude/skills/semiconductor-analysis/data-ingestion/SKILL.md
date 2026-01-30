@@ -1,5 +1,6 @@
 ---
-description: Load when parsing CSV/Excel measurement files, inspecting file structures, or ingesting raw semiconductor data via pandas.
+disable-model-invocation: true
+description: parsing CSV/Excel measurement files, inspecting file structures, or ingesting raw semiconductor data via pandas.
 ---
 
 # Sub-Skill #1: File Structure & Data Ingestion

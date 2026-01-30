@@ -1,5 +1,6 @@
 ---
-description: Load when implementing Firestore data models, CRUD operations, real-time listeners, security rules, or the repository pattern in iOS.
+description: Firestore data models, CRUD, real-time listeners, security rules, repository pattern in iOS.
+disable-model-invocation: true
 ---
 
 # Firestore Sub-Skill

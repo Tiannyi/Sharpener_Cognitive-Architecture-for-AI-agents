@@ -1,5 +1,6 @@
 ---
-description: Load when working with Supabase Postgres, row-level security policies, Edge Functions, or real-time subscriptions.
+description: Supabase Postgres, row-level security, Edge Functions, real-time subscriptions.
+disable-model-invocation: true
 ---
 
 # Backend Sub-Skill: Supabase

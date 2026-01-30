@@ -1,5 +1,6 @@
 ---
-description: Load when determining valid comparisons between measurements, normalizing by device geometry, or grouping data by lot/wafer/die conditions.
+disable-model-invocation: true
+description: determining valid comparisons between measurements, normalizing by device geometry, or grouping data by lot/wafer/die conditions.
 ---
 
 # Sub-Skill #2: Condition Logic & Meaningful Comparisons

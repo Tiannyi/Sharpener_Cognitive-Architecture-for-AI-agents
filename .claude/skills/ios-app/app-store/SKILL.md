@@ -1,5 +1,6 @@
 ---
-description: Load when preparing an iOS app for App Store submission, handling review rejections, or writing metadata and screenshots.
+description: App Store submission preparation, review rejections, metadata, screenshots.
+disable-model-invocation: true
 ---
 
 # App Store Submission Sub-Skill

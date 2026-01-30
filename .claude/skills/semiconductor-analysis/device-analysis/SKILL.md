@@ -1,5 +1,6 @@
 ---
-description: Load when extracting device parameters (Vth, SS, DIBL, Ion/Ioff) from IV or CV measurement data.
+disable-model-invocation: true
+description: extracting device parameters (Vth, SS, DIBL, Ion/Ioff) from IV or CV measurement data.
 ---
 
 # Sub-Skill #3: Device Analysis

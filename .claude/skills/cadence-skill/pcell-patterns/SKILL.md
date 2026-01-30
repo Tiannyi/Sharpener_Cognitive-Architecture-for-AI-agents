@@ -1,5 +1,6 @@
 ---
-description: Load when creating parameterized cells (pcells), defining CDF parameters, writing callbacks, or building device generators in SKILL++.
+description: Create parameterized cells (pcells), CDF parameters, callbacks, device generators in SKILL++.
+disable-model-invocation: true
 ---
 
 # Pcell Patterns Sub-Skill

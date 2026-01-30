@@ -1,5 +1,6 @@
 ---
-description: Load when writing Firebase Cloud Functions, Firestore security rules, or scheduled tasks.
+description: Firebase Cloud Functions, Firestore security rules, scheduled tasks.
+disable-model-invocation: true
 ---
 
 # Backend Sub-Skill: Firebase
