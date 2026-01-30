@@ -33,30 +33,33 @@ This project encodes that judgment into a structured skill system so that AI age
 ## Architecture
 
 ```
-MOTHER.md                          ← Always loaded. Decision hierarchy + routing.
-├── semiconductor-analysis/
-│   ├── SKILL.md                   ← Domain overview, what to borrow vs. build
-│   ├── data-ingestion/SKILL.md    ← File parsing, pandas via terminal, large file handling
-│   ├── condition-logic/SKILL.md   ← Valid comparisons, normalization, grouping
-│   ├── device-analysis/SKILL.md   ← Vth extraction, IV/CV analysis
-│   ├── reliability/SKILL.md       ← NBTI/HCI/TDDB, degradation trends, lifetime projection
-│   └── statistical/SKILL.md       ← Cp/Cpk, control charts, wafer maps, lot acceptance
-├── cadence-skill/
-│   ├── SKILL.md                   ← Domain overview, SKILL language essentials
-│   ├── gds-to-skill/SKILL.md     ← GDS parsing with gdspy/klayout, SKILL code generation
-│   ├── code-organization/SKILL.md ← File structure, naming conventions, coding style
-│   └── pcell-patterns/SKILL.md    ← Pcell skeletons, CDF callbacks, parameterization
-├── ios-app/
-│   ├── SKILL.md                   ← Domain overview, component matrix (buy vs. build)
-│   ├── firebase-auth/SKILL.md     ← Google/Apple/Email sign-in, token management
-│   ├── revenuecat/SKILL.md        ← Subscriptions, paywall UI, entitlements
-│   ├── firestore/SKILL.md         ← Data modeling, repository pattern, security rules
-│   ├── swiftui-patterns/SKILL.md  ← MVVM with @Observable, navigation, reusable views
-│   └── app-store/SKILL.md         ← Submission checklist, rejection handling, ASO
-└── backend/
-    ├── SKILL.md                   ← Firebase vs. Supabase decision framework
-    ├── firebase/SKILL.md          ← Cloud Functions, security rules
-    └── supabase/SKILL.md          ← Postgres/RLS, Edge Functions, real-time
+.claude/
+├── rules/
+│   └── mother.md                          ← Always loaded. Decision hierarchy + routing.
+└── skills/
+    ├── semiconductor-analysis/
+    │   ├── SKILL.md                       ← Domain overview, what to borrow vs. build
+    │   ├── data-ingestion/SKILL.md        ← File parsing, pandas via terminal, large file handling
+    │   ├── condition-logic/SKILL.md       ← Valid comparisons, normalization, grouping
+    │   ├── device-analysis/SKILL.md       ← Vth extraction, IV/CV analysis
+    │   ├── reliability/SKILL.md           ← NBTI/HCI/TDDB, degradation trends, lifetime projection
+    │   └── statistical/SKILL.md           ← Cp/Cpk, control charts, wafer maps, lot acceptance
+    ├── cadence-skill/
+    │   ├── SKILL.md                       ← Domain overview, SKILL language essentials
+    │   ├── gds-to-skill/SKILL.md          ← GDS parsing with gdspy/klayout, SKILL code generation
+    │   ├── code-organization/SKILL.md     ← File structure, naming conventions, coding style
+    │   └── pcell-patterns/SKILL.md        ← Pcell skeletons, CDF callbacks, parameterization
+    ├── ios-app/
+    │   ├── SKILL.md                       ← Domain overview, component matrix (buy vs. build)
+    │   ├── firebase-auth/SKILL.md         ← Google/Apple/Email sign-in, token management
+    │   ├── revenuecat/SKILL.md            ← Subscriptions, paywall UI, entitlements
+    │   ├── firestore/SKILL.md             ← Data modeling, repository pattern, security rules
+    │   ├── swiftui-patterns/SKILL.md      ← MVVM with @Observable, navigation, reusable views
+    │   └── app-store/SKILL.md             ← Submission checklist, rejection handling, ASO
+    └── backend/
+        ├── SKILL.md                       ← Firebase vs. Supabase decision framework
+        ├── firebase/SKILL.md              ← Cloud Functions, security rules
+        └── supabase/SKILL.md              ← Postgres/RLS, Edge Functions, real-time
 ```
 
 ## How It Works
@@ -85,13 +88,13 @@ Before writing any code, the agent walks through four levels:
 
 ## Usage
 
-Copy the `skills/` folder into your project's `.claude/` directory:
+Copy the `.claude/` folder into your project:
 
 ```bash
-cp -r skills/ your-project/.claude/skills/
+cp -r .claude/ your-project/.claude/
 ```
 
-The skills are designed for Claude Code but can be adapted for other AI agent environments.
+Claude Code automatically loads rules from `.claude/rules/` and discovers skills from `.claude/skills/`. No additional configuration needed.
 
 ## Current Domains
 
