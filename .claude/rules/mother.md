@@ -25,9 +25,31 @@ Examples: REST API design, database schemas, SwiftUI MVVM, pcell structure patte
 ### Level 4: Is this problem unique to the domain?
 → **Yes: NOW you write code.** This is where expertise matters — interpretation logic, domain-specific comparisons, proprietary process rules.
 
-## Skill Routing — Ask First, Load Second
+## Skill Routing — Planning-First Workflow
 
-**At the start of a new task, ask the user which domain they're working in.** Present the available domains and their sub-skills so the user can choose what to load. This keeps context usage minimal — only load what's needed.
+Skills are identified naturally during the planning phase, not by asking upfront. Sub-skills are manual-invoke only (`/skill-name`) to keep context minimal.
+
+### How Skills Get Selected
+
+**Phase 1: Planning conversation**
+The user discusses their project, goals, and approach. During this natural conversation, you identify which domain and sub-skills are relevant. Don't interrupt to ask — listen, plan, then recommend.
+
+**Phase 2: Document in CLAUDE.md**
+When the planning produces a plan (often saved to an MD file), also write the selected skills into the project's `CLAUDE.md` or `.claude/CLAUDE.md`. This persists across sessions:
+
+```markdown
+## Active Skills
+This project uses semiconductor analysis. Load at session start:
+- `/data-ingestion` — for parsing measurement CSVs
+- `/device-analysis` — for Vth/SS extraction
+- `/statistical` — for Cpk and control charts
+```
+
+**Phase 3: Subsequent sessions**
+When returning to the project, read `CLAUDE.md`. If active skills are listed, remind the user: "This project uses `/data-ingestion`, `/device-analysis`, and `/statistical`. Run these to load them."
+
+**Phase 4: Ongoing work**
+Once skills are loaded, proceed with the task. If the work evolves and new skills are needed, suggest them and update `CLAUDE.md`.
 
 ### Available Domains and Sub-Skills
 
@@ -54,19 +76,15 @@ Examples: REST API design, database schemas, SwiftUI MVVM, pcell structure patte
    - `/firebase` — Cloud Functions, Firestore triggers, security rules
    - `/supabase` — Postgres, RLS policies, Edge Functions, real-time
 
-### Routing Workflow
+### If No Domain Matches
 
-1. **Ask the user:** "What domain are you working in? Here are the available skills: [list relevant ones]"
-2. **User picks** a domain and/or specific sub-skills
-3. **Tell the user** to run the slash commands (e.g., "Run `/data-ingestion` then `/device-analysis`")
-4. **Only then** proceed with the task using the loaded skill knowledge
-
-**If no domain matches:** Apply the Decision Hierarchy above using general engineering judgment. No skills needed.
+Apply the Decision Hierarchy above using general engineering judgment. No skills needed.
 
 ## Rules
 
 1. **Never generate code as a first response.** First identify the domain, then check the hierarchy.
 2. **If a library exists, recommend it.** Don't build a custom version.
-3. **Ask the user which skills to load.** Don't auto-load everything.
-4. **Sub-skills are manual-invoke only.** The user must run `/skill-name` to load them.
-5. **When in doubt, ask the user** rather than assuming you should build.
+3. **Identify skills during planning, not by asking upfront.** Let the conversation reveal what's needed.
+4. **Persist skill selections in CLAUDE.md** so they carry across sessions.
+5. **Sub-skills are manual-invoke only.** Remind the user to run `/skill-name` to load them.
+6. **When in doubt, ask the user** rather than assuming you should build.
