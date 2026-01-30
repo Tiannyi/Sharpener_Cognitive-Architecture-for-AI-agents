@@ -1,3 +1,7 @@
+---
+description: Load when writing Firebase Cloud Functions, Firestore security rules, or scheduled tasks.
+---
+
 # Backend Sub-Skill: Firebase
 
 > **Load when the task involves Cloud Functions, Firestore triggers, or Firebase project configuration.**

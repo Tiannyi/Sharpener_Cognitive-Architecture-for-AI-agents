@@ -1,3 +1,7 @@
+---
+description: Load when parsing CSV/Excel measurement files, inspecting file structures, or ingesting raw semiconductor data via pandas.
+---
+
 # Sub-Skill #1: File Structure & Data Ingestion
 
 > **Priority sub-skill — always load this first. Claude must understand the raw data before any analysis.**

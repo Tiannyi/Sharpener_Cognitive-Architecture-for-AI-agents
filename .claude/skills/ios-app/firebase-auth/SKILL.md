@@ -1,3 +1,7 @@
+---
+description: Load when implementing Firebase Auth with Google, Apple, or email sign-in in a SwiftUI iOS app.
+---
+
 # Firebase Auth Sub-Skill
 
 > Load this skill when implementing authentication, user sign-in flows, OAuth providers, or managing user sessions in iOS apps.

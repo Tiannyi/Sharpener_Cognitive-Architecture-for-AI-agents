@@ -1,3 +1,7 @@
+---
+description: Load when structuring SKILL code files, applying naming conventions, or organizing Cadence SKILL projects.
+---
+
 # SKILL Code Organization Sub-Skill
 
 > Load this sub-skill when structuring SKILL files, establishing naming conventions, organizing code layout, or implementing team coding standards.

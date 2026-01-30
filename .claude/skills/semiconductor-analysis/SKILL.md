@@ -1,3 +1,7 @@
+---
+description: Load when task involves semiconductor device data, IV/CV curves, wafer measurements, reliability testing, or statistical process control.
+---
+
 # Semiconductor Device Measurement Analysis
 
 > **Domain skill — load when task involves device data, IV/CV curves, wafer measurements, reliability, or SPC.**

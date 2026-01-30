@@ -1,3 +1,7 @@
+---
+description: Load when working with Supabase Postgres, row-level security policies, Edge Functions, or real-time subscriptions.
+---
+
 # Backend Sub-Skill: Supabase
 
 > **Load when the task involves Postgres, Edge Functions, or row-level security policies.**

@@ -1,3 +1,7 @@
+---
+description: Load when converting GDS/GDSII layout files to Cadence SKILL code using gdspy or klayout for parsing.
+---
+
 # GDS-to-SKILL Conversion Sub-Skill
 
 > Load this sub-skill when converting existing GDS/OASIS layouts to SKILL code, extracting hierarchy from GDS files, or mapping GDS layer numbers to PDK conventions.

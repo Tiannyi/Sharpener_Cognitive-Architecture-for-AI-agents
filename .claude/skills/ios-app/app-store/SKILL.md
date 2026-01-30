@@ -1,3 +1,7 @@
+---
+description: Load when preparing an iOS app for App Store submission, handling review rejections, or writing metadata and screenshots.
+---
+
 # App Store Submission Sub-Skill
 
 > Load this skill when preparing for App Store submission, handling app review, or dealing with app rejections.

@@ -1,3 +1,7 @@
+---
+description: Load when determining valid comparisons between measurements, normalizing by device geometry, or grouping data by lot/wafer/die conditions.
+---
+
 # Sub-Skill #2: Condition Logic & Meaningful Comparisons
 
 > **Load after data ingestion. Determines what conditions exist and which comparisons are valid.**

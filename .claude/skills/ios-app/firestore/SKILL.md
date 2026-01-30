@@ -1,3 +1,7 @@
+---
+description: Load when implementing Firestore data models, CRUD operations, real-time listeners, security rules, or the repository pattern in iOS.
+---
+
 # Firestore Sub-Skill
 
 > Load this skill when implementing database functionality, data persistence, real-time sync, or cloud storage in iOS apps.

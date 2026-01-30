@@ -1,3 +1,7 @@
+---
+description: Load when analyzing stress testing data, degradation trends, NBTI/HCI/TDDB, or projecting device lifetime.
+---
+
 # Sub-Skill #4: Reliability Analysis
 
 > **Load when the task involves stress testing, degradation tracking, or lifetime projection.**

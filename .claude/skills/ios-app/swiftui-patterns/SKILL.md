@@ -1,3 +1,7 @@
+---
+description: Load when building SwiftUI views, implementing MVVM with @Observable, navigation patterns, or reusable UI components.
+---
+
 # SwiftUI Patterns Sub-Skill
 
 > Load this skill when architecting SwiftUI views, managing state, implementing navigation, or organizing SwiftUI code.

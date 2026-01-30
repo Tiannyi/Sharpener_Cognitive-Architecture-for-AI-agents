@@ -1,3 +1,7 @@
+---
+description: Load when implementing in-app purchases, subscriptions, paywalls, or entitlements using RevenueCat in iOS.
+---
+
 # RevenueCat Sub-Skill
 
 > Load this skill when implementing in-app purchases, subscriptions, paywalls, or monetization features in iOS apps.

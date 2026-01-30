@@ -1,3 +1,7 @@
+---
+description: Load when calculating Cp/Cpk, building control charts, analyzing wafer maps, or performing lot acceptance.
+---
+
 # Sub-Skill #5: Statistical Process Control
 
 > **Load when the task involves lot/wafer variation analysis, Cp/Cpk, control charts, or lot acceptance.**

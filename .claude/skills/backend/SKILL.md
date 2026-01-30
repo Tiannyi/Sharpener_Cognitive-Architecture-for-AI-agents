@@ -1,3 +1,7 @@
+---
+description: Load when choosing or building backend infrastructure — Firebase vs Supabase, cloud functions, databases, or APIs.
+---
+
 # Backend Services
 
 > **Domain skill — load when the task involves backend infrastructure, cloud functions, databases, or APIs.**

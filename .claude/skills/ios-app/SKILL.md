@@ -1,3 +1,7 @@
+---
+description: Load when building iOS applications with SwiftUI, architecting mobile app features, or setting up iOS project infrastructure.
+---
+
 # iOS App Building Skill
 
 > Load this skill when building iOS applications, architecting mobile app features, or setting up iOS project infrastructure.

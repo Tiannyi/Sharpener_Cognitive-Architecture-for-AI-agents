@@ -1,3 +1,7 @@
+---
+description: Load when creating parameterized cells (pcells), defining CDF parameters, writing callbacks, or building device generators in SKILL++.
+---
+
 # Pcell Patterns Sub-Skill
 
 > Load this sub-skill when creating parameterized cells (pcells), defining CDF parameters, implementing callback functions, or working with common parameterization patterns in Cadence Virtuoso.
